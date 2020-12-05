@@ -9,7 +9,7 @@ import scrapy
 
 
 class JavbooksItem(scrapy.Item):
-    url = scrapy.Field()
+    source_url = scrapy.Field()
     serial = scrapy.Field()
     title = scrapy.Field()
     cover_img = scrapy.Field()
